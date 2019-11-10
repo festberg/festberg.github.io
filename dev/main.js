@@ -175,9 +175,9 @@ __webpack_require__.r(__webpack_exports__);
 
 var rootRouterConfig = [
     { path: '', redirectTo: 'login', pathMatch: 'full' },
-    { path: 'login', component: _login_login_component__WEBPACK_IMPORTED_MODULE_0__["LoginComponent"], canActivate: [_core_auth_guard__WEBPACK_IMPORTED_MODULE_4__["AuthGuard"]] },
-    { path: 'register', component: _register_register_component__WEBPACK_IMPORTED_MODULE_2__["RegisterComponent"], canActivate: [_core_auth_guard__WEBPACK_IMPORTED_MODULE_4__["AuthGuard"]] },
-    { path: 'user', component: _user_user_component__WEBPACK_IMPORTED_MODULE_1__["UserComponent"], resolve: { data: _user_user_resolver__WEBPACK_IMPORTED_MODULE_3__["UserResolver"] } }
+    { path: 'dev/login', component: _login_login_component__WEBPACK_IMPORTED_MODULE_0__["LoginComponent"], canActivate: [_core_auth_guard__WEBPACK_IMPORTED_MODULE_4__["AuthGuard"]] },
+    { path: 'dev/register', component: _register_register_component__WEBPACK_IMPORTED_MODULE_2__["RegisterComponent"], canActivate: [_core_auth_guard__WEBPACK_IMPORTED_MODULE_4__["AuthGuard"]] },
+    { path: 'dev/user', component: _user_user_component__WEBPACK_IMPORTED_MODULE_1__["UserComponent"], resolve: { data: _user_user_resolver__WEBPACK_IMPORTED_MODULE_3__["UserResolver"] } }
 ];
 
 
